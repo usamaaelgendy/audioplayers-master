@@ -1,0 +1,23 @@
+name: audioplayers_example
+description: Demonstrates how to use the audioplayers plugin.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+  http: ^0.13.3
+  path_provider: ^2.0.0
+  flutter_riverpod: ^0.14.0+3
+  provider: ^6.0.1
+  get: ^4.3.8
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio.mp3
+    - assets/audio2.mp3
+    - assets/messenger.mp3
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
